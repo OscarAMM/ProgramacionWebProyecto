@@ -1,0 +1,17 @@
+.contenedor{
+    font-family: "Open Sans",sans-serif;
+    text-align: center;
+}
+.campo{
+    padding: 10px;
+    margin: 5px;
+}
+div.campo label{
+    display: inline-block;
+    margin-right: 5px;
+}
+div.campo input{
+    display: inline-block;
+    width: 200px;
+    margin-left: 5px;
+}

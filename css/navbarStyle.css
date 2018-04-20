@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/04/2018, 02:42:49 PM
+    Author     : KristianVikernes
+*/
+
+.navbarLogo .navbar-brand>img {
+    padding: 0px 15px;
+}
+
+.navbarLogo .nav >li >a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbarLogo .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
