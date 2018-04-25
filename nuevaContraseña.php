@@ -34,8 +34,12 @@
                 </div>
                 <!--fin panel heading-->
                 <div class="panel-body">
-                    <form action="">
+                    <form action="update.php" method = "post">
                         <fieldset>
+                        <div class = "form-group">
+                        <label>Nombre</label>
+                        <input type="text" class = "form-control form-control-sm" name =  "user" id = "user" placeholder= "usuario" required>
+                        </div>
 
                             <div class="form-group">
                                 <label>Nueva constraseña: </label>
