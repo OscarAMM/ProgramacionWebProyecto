@@ -33,37 +33,18 @@
                     <h1>Contraseña</h1>
                 </div>
                 <!--fin panel heading-->
+                <form action="consulta.php" method = "POST" enctype = "multipart/form-data" onsubmit = "consulta.php">
                 <div class="panel-body">
-                    <form action="update.php" method = "post">
-                        <fieldset>
-                        <div class = "form-group">
-                        <label>Nombre</label>
-                        <input type="text" class = "form-control form-control-sm" name =  "user" id = "user" placeholder= "usuario" required>
-                        </div>
-
-                            <div class="form-group">
-                                <label>Nueva constraseña: </label>
-                                <input type="password" class="form-control form-control-sm" name="newPassword" id="newPassword" placeholder="Escribe tu nueva contraseña"
-                                    required>
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Confirmar contraseña: </label>
-                                <input type="password" class="form-control" name="confirmNP" id="confirmNP" placeholder="Confirma tu nueva contraseña" required>
-                            </div>
-                            <div class="panel-footer">
-                                <input type="submit" value="Aceptar" class="btn btn-primary" id="accept">
-                                <input type="button" value="Cancelar" class="btn btn-warning" id="cancel">
-                            </div>
-                        </fieldset>
-                        <!--Fin fieldset-->
-                    </form>
-                    <!--fin form-->
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email" name="email" >
+                    </div>
+                    <div class="panel-footer">
+                        <input type="submit" value="Cambiar" class="btn btn-success">
+                    </div>
                 </div>
-            </div>
-            <!--fin de paneldefault-->
-        </div>
-    </div>
-<script src="js/forgotPassword.js"></script>
+                </form>
+
 </body>
 
 </html>
