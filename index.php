@@ -126,7 +126,7 @@
                                         <a href="#" class="btn btn-primary btn-product" data-toggle="modal" data-target="#samsungView"><span class="glyphicon glyphicon-check"></span> Información Rápida</a> 
                                     </div>
                                     <div class="col-md-6">
-                                        <a href="#" class="btn btn-success btn-product pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Añadir al carrito</a></div>
+                                        <a href="carrito.php" class="btn btn-success btn-product pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Añadir al carrito</a></div>
                                 </div>
 
                                 <p> </p>
@@ -153,7 +153,7 @@
                                         <a href="#" class="btn btn-primary btn-product" data-toggle="modal" data-target="#iphoneView"><span class="glyphicon glyphicon-check"></span> Información Rápida</a> 
                                     </div>
                                     <div class="col-md-6">
-                                        <a href="#" class="btn btn-success btn-product pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Añadir al carrito</a></div>
+                                        <a href="carrito.php" class="btn btn-success btn-product pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Añadir al carrito</a></div>
                                 </div>
 
                                 <p> </p>
@@ -180,7 +180,7 @@
                                         <a href="#" class="btn btn-primary btn-product" data-toggle="modal" data-target="#lumiaView"><span class="glyphicon glyphicon-check"></span> Información Rápida</a> 
                                     </div>
                                     <div class="col-md-6">
-                                        <a href="#" class="btn btn-success btn-product pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Añadir al carrito</a></div>
+                                        <a href="carrito.php" class="btn btn-success btn-product pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Añadir al carrito</a></div>
                                 </div>
 
                                 <p> </p>
