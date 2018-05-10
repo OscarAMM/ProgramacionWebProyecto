@@ -1,0 +1,24 @@
+font{
+    font-family: 'Open Sans', sans-serif;
+}
+.product{
+    border: 1px solid;
+    margin: -1px 19px 3px -1px;
+    padding: 16px;
+    text-align: center; 
+}
+table, th, tr{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+    color: #087e43;
+    padding: 2%;
+    background: #d3d1d1;
+}
+h2{
+    text-align: center;
+    color: #087e43;
+    padding: 2%;
+    background: #d3d1d1;
+}
