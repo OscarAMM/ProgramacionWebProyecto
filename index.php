@@ -373,11 +373,11 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
                         <ul class="list-unstyled list-inline social text-center">
-                            <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/ChristianTuyub"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li class="list-inline-item"><a target="_blank" target="_blank" href="#" ><i class="fa fa-envelope"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/?hl=es-la"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" target="_blank" href="https://outlook.live.com/" ><i class="fa fa-envelope"></i></a></li>
                         </ul>
                     </div>
                     </hr>
