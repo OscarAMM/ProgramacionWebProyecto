@@ -25,7 +25,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Carrito</a></li>
+                    <li><a href="carrito.php">Carrito</a></li>
                 </ul>
                
                 <ul class="nav navbar-nav navbar-right">
@@ -129,7 +129,7 @@
                                         <a href="carrito.php" class="btn btn-success btn-product pull-right"><span class="glyphicon glyphicon-shopping-cart"></span> Añadir al carrito</a></div>
                                 </div>
 
-                                <p> </p>
+                        
                             </div>
                         </div>
                     </div>
