@@ -24,22 +24,26 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Inicio</a></li>
-                    <li><a href="bajoconstruccion.html">Servicios</a></li>
+                    <li><a href="bajoconstruccion.php">Servicios</a></li>
                     <li><a href="carrito.php">Carrito</a></li>
                 </ul>
                
                 <ul class="nav navbar-nav navbar-right">
-                    <?php
-                        if(isset($_SESSION['usuario'])){
-                            $user = $_SESSION['usuario'];
-                            echo "<strong>Usuario: ". $user . "</strong>"; ?>
-                            <form action="logout.php" method="post">
-                                <input type="submit" value="Logout" name="logout" class= "btn btn-danger">
-                            </form>
+                    <li><?php
+                            if(isset($_SESSION['usuario'])){
+                                $user = $_SESSION['usuario'];
+                                echo "<strong>Usuario: ". $user . "</strong>";
+                        ?>
+                    </li>
+                            <li>
+                                <form action="logout.php" method="post">
+                                    <input type="submit" value="Logout" name="logout" class= "btn btn-danger">
+                                </form>
+                            </li>
                     <?php    } ?>
                     <?php if(!isset($_SESSION['usuario'])){ ?>
-                        <a href="registro.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a>
-                        <a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a>
+                        <li><a href="registro.html"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+                        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
                     <?php } ?>
                 </ul>
             </div>
@@ -194,7 +198,7 @@
             <br>
             <div class="row">
                 <div class="col-md12">
-                    <a href="bajoconstruccion.html" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-phone"></span> Ver más Dispositivos</a>
+                    <a href="bajoconstruccion.php" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-phone"></span> Ver más Dispositivos</a>
                 </div>
             </div>
             <section class="wrapper">
@@ -366,7 +370,7 @@
                         <ul class="list-unstyled list-inline quick-links text-center">
                             <li class="list-inline-item"><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
                             <li class="list-inline-item"><a href="aboutUS.php"><i class="fa fa-angle-double-right"></i>Acerca de Nosotros</a></li>
-                            <li class="list-inline-item"><a href="bajoconstruccion.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li class="list-inline-item"><a href="bajoconstruccion.php"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
                         </ul>
                     </div>
                 </div>
