@@ -1,6 +1,6 @@
 
 <?php
-    $link = new mysqli('localhost','root','','project');
+    $link = new mysqli('localhost:33065','root','','project');
     if(!$link){
         die("Couldn't connect to the database! ".mysql_error());
     }else{ 
