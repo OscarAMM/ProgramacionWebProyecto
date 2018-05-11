@@ -365,8 +365,8 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <ul class="list-unstyled list-inline quick-links text-center">
                             <li class="list-inline-item"><a href="index.php"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-angle-double-right"></i>Acerca de Nosotros</a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li class="list-inline-item"><a href="aboutUS.php"><i class="fa fa-angle-double-right"></i>Acerca de Nosotros</a></li>
+                            <li class="list-inline-item"><a href="bajoconstruccion.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
                         </ul>
                     </div>
                 </div>
