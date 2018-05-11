@@ -24,7 +24,7 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
+                    <li><a href="bajoconstruccion.html">Servicios</a></li>
                     <li><a href="carrito.php">Carrito</a></li>
                 </ul>
                
@@ -194,7 +194,7 @@
             <br>
             <div class="row">
                 <div class="col-md12">
-                    <a href="NoRegistro.html" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-phone"></span> Ver más Dispositivos</a>
+                    <a href="bajoconstruccion.html" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-phone"></span> Ver más Dispositivos</a>
                 </div>
             </div>
             <section class="wrapper">
