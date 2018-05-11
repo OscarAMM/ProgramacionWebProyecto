@@ -3,7 +3,7 @@
 session_start();
 $user = $_SESSION['usuario'];
 //Conecta a la base de datos
-    $link = new mysqli('localhost:33065','root', '','project');
+    $link = new mysqli('localhost','root', '','project');
     if(!$link){
         die("Couldn't connect to the database".mysql_error());
     }

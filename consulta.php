@@ -1,6 +1,6 @@
 <?php 
             $email = $_POST["email"];
-            $link = new mysqli('locahost:33065', 'root', '', 'project');
+            $link = new mysqli('locahost', 'root', '', 'project');
             if(!$link){
                 die("Couldn't connect to the database! ".mysql_error());
             }else{

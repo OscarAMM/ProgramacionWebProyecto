@@ -12,7 +12,7 @@
    $user = $_POST['usuario'];
    $pass = $_POST['contraseña'];
    
-   $link = new mysqli('localhost:33065', 'root','','project');
+   $link = new mysqli('localhost', 'root','','project');
 
    if(!$link){
        die("Couldn't conect to the database! ".mysql_error());
