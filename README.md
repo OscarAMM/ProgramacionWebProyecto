@@ -3,7 +3,7 @@
 Proyecto Final de la asignatura Programación en la WEB
 
 ## Universidad Autónoma De Yucatán 
-## Facultad de MAtemáticas
+## Facultad de Matemáticas
 
 ### Mayo de 2018
 
